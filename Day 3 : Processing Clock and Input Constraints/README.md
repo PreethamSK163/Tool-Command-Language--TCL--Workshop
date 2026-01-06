@@ -1,5 +1,17 @@
 # Day 3 Processing Clock and Input Constraints
 
+## Summary
+
+- Developed a **CSV-to-SDC translation engine** to automate clock and input constraint generation for synthesis.
+- Implemented **automated clock creation**, parsing Clock Name and Period from CSV, generating `create_clock` commands, and ensuring precise timing targets.
+- Engineered a **smart port parser** to categorize signals into single-bit and bussed types, enabling full coverage for timing constraints.
+- Integrated **dynamic RTL scanning and space-normalization**, extracting port names from Verilog and standardizing formatting for parsing accuracy.
+- Applied **dual-layer pattern matching** and advanced differentiation logic to map CSV-defined constraints to both bit-level and bus-level signals.
+- Automated **SDC command generation** for `set_input_delay`, `set_input_transition`, and `set_output_delay`, appending all constraints to a single master SDC file.
+- Ensured **hardware-software synchronization** using `[get_ports]` syntax, guaranteeing compatibility with Yosys and Opentimer.
+- Validated **flow scalability and accuracy** on the `openMSP430` design, confirming that all primary inputs and clocks were constrained correctly without manual intervention.
+
+
 ## Task 1: Automated Clock Constraint Generation
 
 - Developed a **translation engine** to convert CSV data into functional SDC commands for automated clock definition.
@@ -72,3 +84,22 @@
 ![4_Bit_or_bussed_differentiation_11](4_Bit_or_bussed_differentiation_11.png)
 ![4_Bit_or_bussed_differentiation_12](4_Bit_or_bussed_differentiation_12.png)
 ![4_Bit_or_bussed_differentiation_13](4_Bit_or_bussed_differentiation_13.png)
+
+## Task 5: Input Constraint Generation & Advanced Port Differentiation
+
+- Developed **algorithmic port matching** to link high-level constraints with RTL port declarations.
+- Implemented **intelligent bus detection** to identify bussed signals and apply constraints to individual bits accurately.
+- Engineered **automated SDC command writing** for `set_input_delay` and `set_input_transition`, dynamically appending to the SDC file.
+- Ensured **hardware-software synchronization** using `get_ports` syntax for compatibility with Yosys and Opentimer.
+- Validated the **flow scalability** on the `openMSP430` design, confirming accurate constraints for all primary inputs without manual intervention.
+
+**Screenshot:**
+![5_Input_constraint_generation_and_bits_or_buffed_differentiation_1](5_Input_constraint_generation_and_bits_or_buffed_differentiation_1.png)
+![5_Input_constraint_generation_and_bits_or_buffed_differentiation_2](5_Input_constraint_generation_and_bits_or_buffed_differentiation_2.png)
+![5_Input_constraint_generation_and_bits_or_buffed_differentiation_3](5_Input_constraint_generation_and_bits_or_buffed_differentiation_3.png)
+![5_Input_constraint_generation_and_bits_or_buffed_differentiation_4](5_Input_constraint_generation_and_bits_or_buffed_differentiation_4.png)
+![5_Input_constraint_generation_and_bits_or_buffed_differentiation_5](5_Input_constraint_generation_and_bits_or_buffed_differentiation_5.png)
+![5_Input_constraint_generation_and_bits_or_buffed_differentiation_6](5_Input_constraint_generation_and_bits_or_buffed_differentiation_6.png)
+![5_Input_constraint_generation_and_bits_or_buffed_differentiation_7](5_Input_constraint_generation_and_bits_or_buffed_differentiation_7.png)
+![5_Input_constraint_generation_and_bits_or_buffed_differentiation_8](5_Input_constraint_generation_and_bits_or_buffed_differentiation_8.png)
+![5_Input_constraint_generation_and_bits_or_buffed_differentiation_9](5_Input_constraint_generation_and_bits_or_buffed_differentiation_9.png)
