@@ -49,3 +49,26 @@
 ![3_Grepping_input_ports_from_all_verilog_and_reformatting_for_fixed_space_8](3_Grepping_input_ports_from_all_verilog_and_reformatting_for_fixed_space_8.png)
 ![3_Grepping_input_ports_from_all_verilog_and_reformatting_for_fixed_space_9](3_Grepping_input_ports_from_all_verilog_and_reformatting_for_fixed_space_9.png)
 ![3_Grepping_input_ports_from_all_verilog_and_reformatting_for_fixed_space_10](3_Grepping_input_ports_from_all_verilog_and_reformatting_for_fixed_space_10.png)
+
+## Task 4: Bit and Bussed Port Differentiation Logic
+
+- Implemented **dual-layer pattern matching** to verify CSV-defined constraints against the reformatted RTL port list.
+- Developed **automated SDC formatting routines** for `set_input_delay`, `set_input_transition`, and `set_output_delay` commands.
+- Engineered **intelligent bus handling** to apply constraints accurately to entire buses or individual bits as required.
+- Configured **streamlined file I/O** to append all interface constraints directly to the master SDC file for a single source of truth.
+- Ensured **synthesis compatibility** by using standard `[get_ports]` syntax, making constraints immediately usable by Yosys or other EDA tools.
+
+**Screenshot:**
+![4_Bit_or_bussed_differentiation_1](4_Bit_or_bussed_differentiation_1.png)
+![4_Bit_or_bussed_differentiation_2](4_Bit_or_bussed_differentiation_2.png)
+![4_Bit_or_bussed_differentiation_3](4_Bit_or_bussed_differentiation_3.png)
+![4_Bit_or_bussed_differentiation_4](4_Bit_or_bussed_differentiation_4.png)
+![4_Bit_or_bussed_differentiation_5](4_Bit_or_bussed_differentiation_5.png)
+![4_Bit_or_bussed_differentiation_6](4_Bit_or_bussed_differentiation_6.png)
+![4_Bit_or_bussed_differentiation_7](4_Bit_or_bussed_differentiation_7.png)
+![4_Bit_or_bussed_differentiation_8](4_Bit_or_bussed_differentiation_8.png)
+![4_Bit_or_bussed_differentiation_9](4_Bit_or_bussed_differentiation_9.png)
+![4_Bit_or_bussed_differentiation_10](4_Bit_or_bussed_differentiation_10.png)
+![4_Bit_or_bussed_differentiation_11](4_Bit_or_bussed_differentiation_11.png)
+![4_Bit_or_bussed_differentiation_12](4_Bit_or_bussed_differentiation_12.png)
+![4_Bit_or_bussed_differentiation_13](4_Bit_or_bussed_differentiation_13.png)
