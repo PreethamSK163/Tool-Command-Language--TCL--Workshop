@@ -1,6 +1,6 @@
 # Day 1 : Introduction to TCL and VSDSYNTH Toolbox Usage
 
-## Day 1 Summary
+## Summary
 
 - Established a strong foundation in TCL-based automation by building a design-agnostic configuration framework driven by external CSV inputs.
 - Decoupled design parameters from TCL logic, enabling scalable reuse of the automation flow across multiple RTL designs.
