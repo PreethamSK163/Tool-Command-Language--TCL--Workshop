@@ -17,3 +17,15 @@
 ![1_Creating_complete_clock_constraints_5](1_Creating_complete_clock_constraints_5.png)
 ![1_Creating_complete_clock_constraints_6](1_Creating_complete_clock_constraints_6.png)
 
+## Task 2: Port Categorization & Bus Expansion Logic
+
+- Developed a **smart port parser** to distinguish between single-bit signals and multi-bit buses for full timing coverage.
+- Implemented **pattern-based identification** using TCL regular expressions to detect bus indices automatically.
+- Created a **categorization engine** to separate ports into "Bussed" and "Bit" types for specialized handling.
+- Added **namespace sanitization** to format CSV-derived port names for proper synthesis netlist integration.
+- Prepared data structures to **expand bus references** (e.g., `DATA[7:0]`) into individual SDC constraints.
+- Validated the algorithm with the `openMSP430` netlist, confirming correct identification and sorting of primary inputs.
+
+**Screenshot:**
+![2_Algorithm_to_categorisze_input_ports_as_bits_and_bussed_1](2_Algorithm_to_categorisze_input_ports_as_bits_and_bussed_1.png)
+![2_Algorithm_to_categorisze_input_ports_as_bits_and_bussed_2](2_Algorithm_to_categorisze_input_ports_as_bits_and_bussed_2.png)
