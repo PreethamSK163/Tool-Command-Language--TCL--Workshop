@@ -1,6 +1,6 @@
 # Day 2 : Variable Creation and Processing Constraints from CSV
 
-## Day 2 Summary
+## Summary
 
 - Built a **TCL-based CSV parsing engine** to dynamically convert configuration data into runtime variables, eliminating manual script edits between designs.
 - Parsed multi-column design and constraint data into internal matrices, supporting efficient data access and manipulation.
