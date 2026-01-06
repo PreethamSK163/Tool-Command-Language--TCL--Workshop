@@ -32,3 +32,18 @@
 ![2_Convert_contraints.csv_file_to_matrix_object_5](2_Convert_contraints.csv_file_to_matrix_object_5.png)
 ![2_Convert_contraints.csv_file_to_matrix_object_6](2_Convert_contraints.csv_file_to_matrix_object_6.png)
 ![2_Convert_contraints.csv_file_to_matrix_object_7](2_Convert_contraints.csv_file_to_matrix_object_7.png)
+
+
+## Task 3: Matrix Row Computation & Data Indexing
+
+- Implemented **programmatic dimensioning** using TCL matrix commands to calculate total row count of loaded CSV data for reliable processing boundaries.
+- Developed **array-matrix linking** to connect structural matrices with internal TCL arrays, enabling rapid data access and manipulation.
+- Added **boundary condition management** to iterate through all rows while ignoring empty termination rows.
+- Configured **header-to-data differentiation** for accurate mapping of metadata headers to design constraint values.
+- Verified **flow synchronization** to ensure row computation logic scales with variable-length CSV inputs, supporting small to large SOC designs.
+
+**Screenshot:**
+![3_Computing_number_of_rows_1](3_Computing_number_of_rows_1.png)
+![3_Computing_number_of_rows_2](3_Computing_number_of_rows_2.png)
+![3_Computing_number_of_rows_3](3_Computing_number_of_rows_3.png)
+![3_Computing_number_of_rows_4](3_Computing_number_of_rows_4.png)
