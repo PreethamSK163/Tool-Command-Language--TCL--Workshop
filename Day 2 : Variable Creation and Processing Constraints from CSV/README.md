@@ -1,5 +1,17 @@
 # Day 2 : Variable Creation and Processing Constraints from CSV
 
+## Day 2 Summary
+
+- Built a **TCL-based CSV parsing engine** to dynamically convert configuration data into runtime variables, eliminating manual script edits between designs.
+- Parsed multi-column design and constraint data into internal matrices, supporting efficient data access and manipulation.
+- Implemented **automated environment validation** to ensure RTL directories, standard cell libraries, and output paths exist.
+- Developed **intelligent directory management** to create missing folders automatically, maintaining a consistent workspace.
+- Programmatically computed **matrix dimensions** and linked matrices to TCL arrays for accurate, scalable constraint processing.
+- Introduced **boundary and header-to-data checks** to handle variable-length CSV inputs and distinguish metadata from functional data.
+- Added **exception handling and environment reporting**, providing real-time feedback and status updates for each verified component.
+- Validated the automation flow on the `openMSP430` design, ensuring proper integration of RTL netlists and timing constraints for synthesis readiness.
+
+
 ## Task 1: Variable Creation & CSV Data Processing
 
 - Developed a **TCL-based CSV parsing engine** to automate variable assignment for design automation.
