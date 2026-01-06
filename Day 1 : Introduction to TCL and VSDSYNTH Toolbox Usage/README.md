@@ -13,3 +13,14 @@
 ![1_Introduction_to_tcl_task_1](1_Introduction_to_tcl_task_1.png)
 ![1_Introduction_to_tcl_task_2](1_Introduction_to_tcl_task_2.png)
 
+## Task 2: Shell Scripting & User Input Validation
+
+- Developed a shell-based wrapper script (`vsdsynth`) using `tcsh` to control the end-to-end automation flow.
+- Implemented a command-line interface header to clearly present tool functionality and integration with Yosys and OpenTimer.
+- Added argument validation logic to verify the presence of the mandatory CSV configuration file before execution.
+- Handled missing-input scenarios by displaying corrective usage instructions and safely terminating the flow.
+- Applied executable permissions using environment-level commands to finalize the script as a Linux utility.
+
+**Screenshot:**
+![2_Scenario_1_User_doesn't_provide_an_input_CSV_file_1](2_Scenario_1_User_doesn't_provide_an_input_CSV_file_1.png)
+![2_Scenario_1_User_doesn't_provide_an_input_CSV_file_2](2_Scenario_1_User_doesn't_provide_an_input_CSV_file_2.png)
