@@ -29,3 +29,23 @@
 **Screenshot:**
 ![2_Algorithm_to_categorisze_input_ports_as_bits_and_bussed_1](2_Algorithm_to_categorisze_input_ports_as_bits_and_bussed_1.png)
 ![2_Algorithm_to_categorisze_input_ports_as_bits_and_bussed_2](2_Algorithm_to_categorisze_input_ports_as_bits_and_bussed_2.png)
+
+## Task 3: Automated Port Extraction & Space-Normalization
+
+- Integrated **dynamic RTL scanning** to automatically extract all input port declarations from Verilog source files.
+- Developed **fixed-space reformatting routines** to standardize whitespaces and tabs for consistent parsing.
+- Implemented **automated data cleaning** to strip Verilog keywords and delimiters, isolating pure signal names for constraint mapping.
+- Utilized **temporary file buffering** for efficient data handling, ensuring performance with high-gate-count netlists.
+- Cross-validated the extraction engine against the `openMSP430` design to ensure accurate identification and formatting of all primary inputs.
+
+**Screenshot:**
+![3_Grepping_input_ports_from_all_verilog_and_reformatting_for_fixed_space_1](3_Grepping_input_ports_from_all_verilog_and_reformatting_for_fixed_space_1.png)
+![3_Grepping_input_ports_from_all_verilog_and_reformatting_for_fixed_space_2](3_Grepping_input_ports_from_all_verilog_and_reformatting_for_fixed_space_2.png)
+![3_Grepping_input_ports_from_all_verilog_and_reformatting_for_fixed_space_3](3_Grepping_input_ports_from_all_verilog_and_reformatting_for_fixed_space_3.png)
+![3_Grepping_input_ports_from_all_verilog_and_reformatting_for_fixed_space_4](3_Grepping_input_ports_from_all_verilog_and_reformatting_for_fixed_space_4.png)
+![3_Grepping_input_ports_from_all_verilog_and_reformatting_for_fixed_space_5](3_Grepping_input_ports_from_all_verilog_and_reformatting_for_fixed_space_5.png)
+![3_Grepping_input_ports_from_all_verilog_and_reformatting_for_fixed_space_6](3_Grepping_input_ports_from_all_verilog_and_reformatting_for_fixed_space_6.png)
+![3_Grepping_input_ports_from_all_verilog_and_reformatting_for_fixed_space_7](3_Grepping_input_ports_from_all_verilog_and_reformatting_for_fixed_space_7.png)
+![3_Grepping_input_ports_from_all_verilog_and_reformatting_for_fixed_space_8](3_Grepping_input_ports_from_all_verilog_and_reformatting_for_fixed_space_8.png)
+![3_Grepping_input_ports_from_all_verilog_and_reformatting_for_fixed_space_9](3_Grepping_input_ports_from_all_verilog_and_reformatting_for_fixed_space_9.png)
+![3_Grepping_input_ports_from_all_verilog_and_reformatting_for_fixed_space_10](3_Grepping_input_ports_from_all_verilog_and_reformatting_for_fixed_space_10.png)
