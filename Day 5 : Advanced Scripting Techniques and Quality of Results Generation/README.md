@@ -81,3 +81,21 @@
 ![5_read_lib_and_read_verilog_proc_6](5_read_lib_and_read_verilog_proc_6.png)
 
 
+## Task 6: SDC to OpenTimer Format Conversion
+
+- Implemented a **cross-tool constraint translation engine** to convert SDC timing constraints into OpenTimer-compatible format.
+- Developed **automated syntax translation logic** to reinterpret standard SDC commands for OpenTimer’s timing engine.
+- Ensured **precision parameter mapping**, synchronizing clock periods, input/output delays, and transition times across tools.
+- Implemented **dynamic object reformatting** to correctly map ports and pins for accurate timing boundary recognition.
+- Automated the **generation of OpenTimer configuration scripts**, eliminating manual intervention and reducing human error.
+- Validated **STA readiness** by successfully loading the converted constraints into OpenTimer for slack and path delay analysis.
+
+**Screenshot:**
+![6_Convert_constraint_from_sdc_format_to_opentimer_format_1](6_Convert_constraint_from_sdc_format_to_opentimer_format_1.png)
+![6_Convert_constraint_from_sdc_format_to_opentimer_format_2](6_Convert_constraint_from_sdc_format_to_opentimer_format_2.png)
+![6_Convert_constraint_from_sdc_format_to_opentimer_format_3](6_Convert_constraint_from_sdc_format_to_opentimer_format_3.png)
+![6_Convert_constraint_from_sdc_format_to_opentimer_format_4](6_Convert_constraint_from_sdc_format_to_opentimer_format_4.png)
+![6_Convert_constraint_from_sdc_format_to_opentimer_format_5](6_Convert_constraint_from_sdc_format_to_opentimer_format_5.png)
+![6_Convert_constraint_from_sdc_format_to_opentimer_format_6](6_Convert_constraint_from_sdc_format_to_opentimer_format_6.png)
+![6_Convert_constraint_from_sdc_format_to_opentimer_format_7](6_Convert_constraint_from_sdc_format_to_opentimer_format_7.png)
+
