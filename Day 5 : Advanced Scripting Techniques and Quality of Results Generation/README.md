@@ -99,3 +99,18 @@
 ![6_Convert_constraint_from_sdc_format_to_opentimer_format_6](6_Convert_constraint_from_sdc_format_to_opentimer_format_6.png)
 ![6_Convert_constraint_from_sdc_format_to_opentimer_format_7](6_Convert_constraint_from_sdc_format_to_opentimer_format_7.png)
 
+## Task 7: SDC Latency to OpenTimer Arrival Time Conversion
+
+- Enhanced the timing automation flow to support **advanced clock modeling** by converting SDC-defined clock latency into OpenTimer arrival time parameters.
+- Implemented **automated latency parsing logic** to accurately extract `set_clock_latency` specifications from the master SDC file.
+- Developed **format normalization and translation routines** to map SDC latency values into OpenTimer `at` (arrival time) syntax without loss of precision.
+- Ensured **clock tree compensation**, correctly accounting for both source and network delays to enable realistic setup and hold slack analysis.
+- Maintained **parameter integrity**, validating that timing units and numerical values remain consistent across tools, avoiding artificial timing pessimism or optimism.
+- Achieved **full-flow STA readiness**, enabling a completely automated, push-button synthesis-to-timing flow with 100% OpenTimer-compatible constraint generation.
+
+**Screenshot:**
+![7_Convert_set_clock_latency_in_sdc_to_arrival_time_in_opentimer_1](7_Convert_set_clock_latency_in_sdc_to_arrival_time_in_opentimer_1.png)
+![7_Convert_set_clock_latency_in_sdc_to_arrival_time_in_opentimer_2](7_Convert_set_clock_latency_in_sdc_to_arrival_time_in_opentimer_2.png)
+![7_Convert_set_clock_latency_in_sdc_to_arrival_time_in_opentimer_3](7_Convert_set_clock_latency_in_sdc_to_arrival_time_in_opentimer_3.png)
+![7_Convert_set_clock_latency_in_sdc_to_arrival_time_in_opentimer_4](7_Convert_set_clock_latency_in_sdc_to_arrival_time_in_opentimer_4.png)
+![7_Convert_set_clock_latency_in_sdc_to_arrival_time_in_opentimer_5](7_Convert_set_clock_latency_in_sdc_to_arrival_time_in_opentimer_5.png)
