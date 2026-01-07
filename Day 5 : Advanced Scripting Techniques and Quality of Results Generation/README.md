@@ -40,3 +40,25 @@
 ![3_TCL_array_commands_1](3_TCL_array_commands_1.png)
 ![3_TCL_array_commands_2](3_TCL_array_commands_2.png)
 
+## Task 4: Modular Programming via Multiple TCL Procedures (proc)
+
+- Refactored the automation flow using **functional decomposition**, separating environment setup, constraint handling, and synthesis execution.
+- Designed a **modular tool architecture** using multiple TCL `proc` blocks, improving readability and long-term maintainability.
+- Implemented **reusable procedures** for common operations such as regex-based port extraction, file checks, and directory validation.
+- Enabled **dynamic argument management**, allowing procedures to adapt to different designs and configurations without code duplication.
+- Improved **debug efficiency** by isolating logic into independent procedures, simplifying error identification and testing.
+- Established a **scalable framework template**, enabling future EDA tool integrations through additional procedure calls without altering the core engine.
+
+**Screenshot:**
+![4_Setting_multiple_proc_1](4_Setting_multiple_proc_1.png)
+![4_Setting_multiple_proc_2](4_Setting_multiple_proc_2.png)
+![4_Setting_multiple_proc_3](4_Setting_multiple_proc_3.png)
+![4_Setting_multiple_proc_4](4_Setting_multiple_proc_4.png)
+![4_Setting_multiple_proc_5](4_Setting_multiple_proc_5.png)
+![4_Setting_multiple_proc_6](4_Setting_multiple_proc_6.png)
+![4_Setting_multiple_proc_7](4_Setting_multiple_proc_7.png)
+![4_Setting_multiple_proc_8](4_Setting_multiple_proc_8.png)
+![4_Setting_multiple_proc_9](4_Setting_multiple_proc_9.png)
+![4_Setting_multiple_proc_10](4_Setting_multiple_proc_10.png)
+![4_Setting_multiple_proc_11](4_Setting_multiple_proc_11.png)
+![4_Setting_multiple_proc_12](4_Setting_multiple_proc_12.png)
