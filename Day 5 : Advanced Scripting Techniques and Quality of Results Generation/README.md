@@ -1,5 +1,17 @@
 # Day 5 : Advanced Scripting Techniques and Quality of Results Generation
 
+## Summary
+
+- Implemented end-to-end automated synthesis from RTL to gate-level netlist.
+- Developed modular TCL procedures for reusable, maintainable scripting.
+- Automated post-synthesis netlist sanitization and formatting for STA compatibility.
+- Translated SDC timing constraints to OpenTimer format for inputs, outputs, and clock latency.
+- Added bit-blasting for multi-bit buses to ensure granular timing coverage.
+- Automated OpenTimer configuration file generation for seamless STA execution.
+- Extracted QoR metrics (Instance count, WNS, FEP) automatically from logs.
+- Created professional CLI dashboard and CSV reports for design sign-off.
+- Enabled fully automated, push-button RTL-to-QoR flow with minimal manual intervention.
+
 ## Task 1: Automated Synthesis Script Finalization
 
 - Implemented **end-to-end synthesis automation**, executing the complete RTL-to-gate flow using `$DesignName` as the root hierarchy.
@@ -209,5 +221,16 @@
 ![12_Instances_count_wns_fep_for_setup_and_hold_5](12_Instances_count_wns_fep_for_setup_and_hold_5.png)
 ![12_Instances_count_wns_fep_for_setup_and_hold_6](12_Instances_count_wns_fep_for_setup_and_hold_6.png)
 
+## Task 13: Final Report Formatting & Dashboard Generation
+
+- Developed a **professional CLI-based QoR dashboard** presenting key design metrics (Instance Count, WNS, FEP, Status) in a clean, readable tabular format.
+- Implemented **automated CSV report generation** to persist synthesis and timing results for tracking, comparison, and documentation purposes.
+- Integrated **real-time design status evaluation**, automatically flagging Pass/Fail based on setup and hold timing margins.
+- Consolidated **multi-tool metadata** by merging Yosys synthesis outputs and OpenTimer STA results into a single unified report.
+- Finalized **workspace optimization logic** with automated cleanup, retaining only essential reports and final design artifacts for sign-off review.
+
+**Screenshot:**
+![13_Report_formatting_1](13_Report_formatting_1.png)
+![13_Report_formatting_2](13_Report_formatting_2.png)
 
 
