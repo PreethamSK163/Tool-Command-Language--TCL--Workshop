@@ -156,6 +156,25 @@
 ![9_Convert_output_sdc_constraints_to_opentime_4](9_Convert_output_sdc_constraints_to_opentime_4.png)
 
 
+## Task 10: Automated Bit-Blasting for Bussed Constraints
+
+- Enhanced the automation tool with a **bit-blasting engine** to ensure explicit bit-level timing constraints for all multi-bit buses.
+- Implemented **intelligent bus detection and expansion**, automatically decomposing bussed ports into individual scalar signals.
+- Developed **uniform constraint replication logic**, propagating bus-level delay and transition values consistently across every bit.
+- Ensured **OpenTimer syntax compliance** by standardizing bit-level naming conventions for seamless STA database parsing.
+- Leveraged **nested TCL iteration constructs** to dynamically support arbitrary bus widths, enabling scalability from small controllers to wide datapath designs.
+- Achieved **comprehensive boundary coverage**, applying bit-blasted constraints to both input and output ports for high-precision slack and path delay analysis.
+
+**Screenshot:**
+![10_Convert_all_bussed_constraints_to_bit_blasted_1](10_Convert_all_bussed_constraints_to_bit_blasted_1.png)
+![10_Convert_all_bussed_constraints_to_bit_blasted_2](10_Convert_all_bussed_constraints_to_bit_blasted_2.png)
+![10_Convert_all_bussed_constraints_to_bit_blasted_3](10_Convert_all_bussed_constraints_to_bit_blasted_3.png)
+![10_Convert_all_bussed_constraints_to_bit_blasted_4](10_Convert_all_bussed_constraints_to_bit_blasted_4.png)
+![10_Convert_all_bussed_constraints_to_bit_blasted_5](10_Convert_all_bussed_constraints_to_bit_blasted_5.png)
+![10_Convert_all_bussed_constraints_to_bit_blasted_6](10_Convert_all_bussed_constraints_to_bit_blasted_6.png)
+![10_Convert_all_bussed_constraints_to_bit_blasted_7](10_Convert_all_bussed_constraints_to_bit_blasted_7.png)
+
+
 
 
 
