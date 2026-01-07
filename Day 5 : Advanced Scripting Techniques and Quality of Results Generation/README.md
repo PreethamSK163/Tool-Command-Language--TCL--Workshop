@@ -192,6 +192,22 @@
 ![11_Opentimer_configuration_file_creation_6](11_Opentimer_configuration_file_creation_6.png)
 ![11_Opentimer_configuration_file_creation_7](11_Opentimer_configuration_file_creation_7.png)
 
+## Task 12: QoR Extraction (Instances, WNS, and FEP)
+
+- Implemented an **automated QoR extraction engine** to convert raw synthesis and STA logs into actionable design metrics.
+- Developed a **robust instance count parser** to extract total cell count, enabling quick area and complexity estimation.
+- Engineered **setup and hold WNS extractors** to identify worst-case timing paths and quantify critical timing margins.
+- Implemented **Failing Endpoint (FEP) analysis**, counting timing violations to assess overall timing closure quality.
+- Integrated all extracted metrics into a **centralized QoR reporting structure**, enabling consolidated performance visibility.
+- Enabled **sign-off readiness evaluation** by deriving a clear Pass/Fail status based on WNS and FEP thresholds.
+
+**Screenshot:**
+![12_Instances_count_wns_fep_for_setup_and_hold_1](12_Instances_count_wns_fep_for_setup_and_hold_1.png)
+![12_Instances_count_wns_fep_for_setup_and_hold_2](12_Instances_count_wns_fep_for_setup_and_hold_2.png)
+![12_Instances_count_wns_fep_for_setup_and_hold_3](12_Instances_count_wns_fep_for_setup_and_hold_3.png)
+![12_Instances_count_wns_fep_for_setup_and_hold_4](12_Instances_count_wns_fep_for_setup_and_hold_4.png)
+![12_Instances_count_wns_fep_for_setup_and_hold_5](12_Instances_count_wns_fep_for_setup_and_hold_5.png)
+![12_Instances_count_wns_fep_for_setup_and_hold_6](12_Instances_count_wns_fep_for_setup_and_hold_6.png)
 
 
 
