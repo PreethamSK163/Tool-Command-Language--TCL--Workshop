@@ -62,3 +62,22 @@
 ![4_Setting_multiple_proc_10](4_Setting_multiple_proc_10.png)
 ![4_Setting_multiple_proc_11](4_Setting_multiple_proc_11.png)
 ![4_Setting_multiple_proc_12](4_Setting_multiple_proc_12.png)
+
+## Task 5: Encapsulated Library & RTL Loading Procedures
+
+- Modularized the data-ingestion layer by creating **dedicated TCL procedures** for library and RTL loading.
+- Implemented a standardized **`read_lib` procedure** to automate the inclusion of timing and power models from the standard cell library.
+- Developed a dynamic **`read_verilog` procedure** to discover and load all RTL source files without maintaining manual file lists.
+- Integrated **pre-execution path validation** within each procedure to ensure file accessibility and prevent runtime failures.
+- Added **execution-level logging** to provide real-time CLI feedback confirming successful data ingestion.
+- Ensured **high code reusability**, allowing easy adaptation across different designs or technology nodes with minimal changes.
+
+**Screenshot:**
+![5_read_lib_and_read_verilog_proc_1](5_read_lib_and_read_verilog_proc_1.png)
+![5_read_lib_and_read_verilog_proc_2](5_read_lib_and_read_verilog_proc_2.png)
+![5_read_lib_and_read_verilog_proc_3](5_read_lib_and_read_verilog_proc_3.png)
+![5_read_lib_and_read_verilog_proc_4](5_read_lib_and_read_verilog_proc_4.png)
+![5_read_lib_and_read_verilog_proc_5](5_read_lib_and_read_verilog_proc_5.png)
+![5_read_lib_and_read_verilog_proc_6](5_read_lib_and_read_verilog_proc_6.png)
+
+
