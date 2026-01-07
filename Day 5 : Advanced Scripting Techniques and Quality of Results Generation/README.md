@@ -114,3 +114,27 @@
 ![7_Convert_set_clock_latency_in_sdc_to_arrival_time_in_opentimer_3](7_Convert_set_clock_latency_in_sdc_to_arrival_time_in_opentimer_3.png)
 ![7_Convert_set_clock_latency_in_sdc_to_arrival_time_in_opentimer_4](7_Convert_set_clock_latency_in_sdc_to_arrival_time_in_opentimer_4.png)
 ![7_Convert_set_clock_latency_in_sdc_to_arrival_time_in_opentimer_5](7_Convert_set_clock_latency_in_sdc_to_arrival_time_in_opentimer_5.png)
+
+## Task 8: Input Transition & Delay Translation for OpenTimer
+
+- Finalized the automation framework by enabling **interface-level timing constraint translation** and fully automated STA execution.
+- Implemented **automated slew and delay mapping**, converting SDC `set_input_transition` and `set_input_delay` commands into OpenTimer-compliant `slew` and `at` specifications.
+- Developed **dynamic OpenTimer configuration generation**, automatically linking technology libraries, the sanitized post-synthesis netlist, and translated timing constraints.
+- Integrated **hands-free STA execution**, allowing the master script to invoke the OpenTimer engine, collect timing reports, and log results without user intervention.
+- Enhanced **precision port and bus resolution** using intelligent pattern matching to ensure accurate constraint application on both scalar ports and vector buses.
+- Achieved **full-flow synchronization and validation**, confirming that the translated constraints correctly represent the design’s interface timing requirements and enabling reliable Slack and Path Delay reporting.
+
+**Screenshot:**
+![8_Convert_transition_and_input_delay_to_open_timer_format_1](8_Convert_transition_and_input_delay_to_open_timer_format_1.png)
+![8_Convert_transition_and_input_delay_to_open_timer_format_2](8_Convert_transition_and_input_delay_to_open_timer_format_2.png)
+![8_Convert_transition_and_input_delay_to_open_timer_format_3](8_Convert_transition_and_input_delay_to_open_timer_format_3.png)
+![8_Convert_transition_and_input_delay_to_open_timer_format_4](8_Convert_transition_and_input_delay_to_open_timer_format_4.png)
+![8_Convert_transition_and_input_delay_to_open_timer_format_5](8_Convert_transition_and_input_delay_to_open_timer_format_5.png)
+![8_Convert_transition_and_input_delay_to_open_timer_format_6](8_Convert_transition_and_input_delay_to_open_timer_format_6.png)
+![8_Convert_transition_and_input_delay_to_open_timer_format_7](8_Convert_transition_and_input_delay_to_open_timer_format_7.png)
+![8_Convert_transition_and_input_delay_to_open_timer_format_8](8_Convert_transition_and_input_delay_to_open_timer_format_8.png)
+![8_Convert_transition_and_input_delay_to_open_timer_format_9](8_Convert_transition_and_input_delay_to_open_timer_format_9.png)
+![8_Convert_transition_and_input_delay_to_open_timer_format_10](8_Convert_transition_and_input_delay_to_open_timer_format_10.png)
+![8_Convert_transition_and_input_delay_to_open_timer_format_11](8_Convert_transition_and_input_delay_to_open_timer_format_11.png)
+![8_Convert_transition_and_input_delay_to_open_timer_format_12](8_Convert_transition_and_input_delay_to_open_timer_format_12.png)
+![8_Convert_transition_and_input_delay_to_open_timer_format_13](8_Convert_transition_and_input_delay_to_open_timer_format_13.png)
