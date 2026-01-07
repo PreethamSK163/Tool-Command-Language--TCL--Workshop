@@ -138,3 +138,24 @@
 ![8_Convert_transition_and_input_delay_to_open_timer_format_11](8_Convert_transition_and_input_delay_to_open_timer_format_11.png)
 ![8_Convert_transition_and_input_delay_to_open_timer_format_12](8_Convert_transition_and_input_delay_to_open_timer_format_12.png)
 ![8_Convert_transition_and_input_delay_to_open_timer_format_13](8_Convert_transition_and_input_delay_to_open_timer_format_13.png)
+
+
+## Task 9: Output Constraint Conversion for OpenTimer
+
+- Extended the constraint translation engine to support **output-side timing modeling**, completing full design boundary coverage for STA.
+- Implemented **automated RAT mapping**, converting SDC `set_output_delay` constraints into OpenTimer-compliant `rat` commands for all primary outputs.
+- Developed **capacitance translation logic**, mapping SDC `set_load` values into OpenTimer-compatible capacitance definitions for realistic output delay and transition analysis.
+- Ensured **interface timing synchronization** by aligning output required times precisely with the associated clock definitions during format conversion.
+- Enabled **bus-aware constraint generation**, applying output timing constraints uniformly across scalar outputs and multi-bit output buses using the internal port database.
+- Achieved **end-to-end timing coverage**, allowing OpenTimer to accurately report Worst Negative Slack (WNS) and critical paths from inputs through outputs.
+
+**Screenshot:**
+![9_Convert_output_sdc_constraints_to_opentime_1](9_Convert_output_sdc_constraints_to_opentime_1.png)
+![9_Convert_output_sdc_constraints_to_opentime_2](9_Convert_output_sdc_constraints_to_opentime_2.png)
+![9_Convert_output_sdc_constraints_to_opentime_3](9_Convert_output_sdc_constraints_to_opentime_3.png)
+![9_Convert_output_sdc_constraints_to_opentime_4](9_Convert_output_sdc_constraints_to_opentime_4.png)
+
+
+
+
+
