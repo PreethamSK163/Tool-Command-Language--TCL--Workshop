@@ -11,3 +11,18 @@
 **Screenshot:**
 ![1_Synthesis_script_creation_1](1_Synthesis_script_creation_1.png)
 ![1_Synthesis_script_creation_2](1_Synthesis_script_creation_2.png)
+
+## Task 2: Automated Netlist Sanitization & Formatting
+
+- Implemented an **automated post-synthesis netlist refinement engine** to eliminate manual editing before STA.
+- Developed **high-speed stream editing logic** to process the synthesized Verilog netlist immediately after generation.
+- Applied **regex-based sanitization (`regsub`)** to remove escaped characters and backslashes, ensuring standard Verilog compliance.
+- Standardized **bussed signal notation and instance naming**, improving interoperability with STA tools.
+- Ensured **non-destructive refinement**, preserving complete gate-level connectivity while cleaning syntax artifacts.
+- Validated **seamless integration with Opentimer**, confirming the sanitized netlist is STA-ready without additional user intervention.
+
+**Screenshot:**
+![2_Edit_output_netlist_1](2_Edit_output_netlist_1.png)
+![2_Edit_output_netlist_2](2_Edit_output_netlist_2.png)
+![2_Edit_output_netlist_3](2_Edit_output_netlist_3.png)
+![2_Edit_output_netlist_4](2_Edit_output_netlist_4.png)
