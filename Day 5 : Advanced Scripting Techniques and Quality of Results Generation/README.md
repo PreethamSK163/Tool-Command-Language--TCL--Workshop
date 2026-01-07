@@ -174,6 +174,23 @@
 ![10_Convert_all_bussed_constraints_to_bit_blasted_6](10_Convert_all_bussed_constraints_to_bit_blasted_6.png)
 ![10_Convert_all_bussed_constraints_to_bit_blasted_7](10_Convert_all_bussed_constraints_to_bit_blasted_7.png)
 
+## Task 11: Automated OpenTimer Configuration File (.conf) Creation
+
+- Implemented an automated **OpenTimer configuration generation engine** to orchestrate the complete STA environment setup.
+- Developed a **centralized configuration routine** that consolidates all timing commands into a single `.conf` file for deterministic execution.
+- Programmatically linked **technology Liberty files** and the **post-synthesis, sanitized gate-level netlist** into the timing flow.
+- Enforced **sequential STA execution order**, ensuring proper design initialization, constraint application, and timing analysis.
+- Standardized **QoR reporting**, enabling automatic generation of setup and hold timing reports for clear slack visibility.
+- Validated **end-to-end automation**, confirming seamless execution from synthesized RTL through OpenTimer to final timing reports without manual steps.
+
+**Screenshot:**
+![11_Opentimer_configuration_file_creation_1](11_Opentimer_configuration_file_creation_1.png)
+![11_Opentimer_configuration_file_creation_2](11_Opentimer_configuration_file_creation_2.png)
+![11_Opentimer_configuration_file_creation_3](11_Opentimer_configuration_file_creation_3.png)
+![11_Opentimer_configuration_file_creation_4](11_Opentimer_configuration_file_creation_4.png)
+![11_Opentimer_configuration_file_creation_5](11_Opentimer_configuration_file_creation_5.png)
+![11_Opentimer_configuration_file_creation_6](11_Opentimer_configuration_file_creation_6.png)
+![11_Opentimer_configuration_file_creation_7](11_Opentimer_configuration_file_creation_7.png)
 
 
 
